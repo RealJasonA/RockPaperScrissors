@@ -9,13 +9,13 @@ function playRound(playerSelection, computerSelection) {
     // computerSelection = computerPlay();
 
     switch (computerSelection) {
-        case 0: "paper";
+        case 0: computerSelection = "paper";
         break;
 
-        case 1: "rock";
+        case 1: computerSelection = "rock";
         break;
 
-        case 2: "scissors";
+        case 2: computerSelection = "scissors";
         break;
     }
 
